@@ -7,6 +7,10 @@ class Marino():
 class Pulpo(Marino):
     def hablar(self):
         print("Soy un pulpo")
+
+class Orca_(Marino):
+    def hablar(self):
+        print("Soy una _Orca")
         
 class Foca(Marino):
     def hablar(self, mensaje):
